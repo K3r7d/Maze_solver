@@ -9,7 +9,7 @@ Threading: Utilizes Python threading to run both algorithms simultaneously for c
 Prerequisites
 Python 3.x
 Pygame
-Installation
+# Installation
 Clone the repository:
 
 ```
@@ -32,31 +32,32 @@ Visualize the maze solving process:
 
 The script will visualize the solving process of the maze using both DFS and BFS algorithms simultaneously.
 
-Code Overview
-generate_maze
+# Code Overview
+### generate_maze
 Generates a maze using either DFS or BFS algorithm. The maze is represented as a 2D list where 1 represents a wall and 0 represents a path.
 
-draw_grid
+### draw_grid
 Draws the maze on the Pygame screen.
 
-dfs_2
+### dfs_2
 Solves the maze using the DFS algorithm. It visualizes the pathfinding process by coloring the path.
 
-bfs_2
+### bfs_2
 Solves the maze using the BFS algorithm. It visualizes the pathfinding process by coloring the path.
 
-game_loop
+### game_loop
 Main loop of the game that initializes Pygame, generates the maze, and runs the solving algorithms in separate threads for simultaneous visualization.
 
-Customization
+## Result
+https://github.com/K3r7d/Maze_game/blob/main/Img/image.png
+
+
+### Customization
 Maze Dimensions: You can change the ROWS, COLS, and CELL_SIZE variables to customize the size of the maze.
 Algorithm Selection: You can modify the algorithm parameter in generate_maze to choose between DFS and BFS for maze generation.
 Visualization Speed: Adjust the time.sleep() values in dfs_2 and bfs_2 functions to change the speed of the visualization.
 Contributing
 Contributions are welcome! Please create a pull request or open an issue to discuss your ideas.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 
