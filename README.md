@@ -49,7 +49,7 @@ Solves the maze using the BFS algorithm. It visualizes the pathfinding process b
 Main loop of the game that initializes Pygame, generates the maze, and runs the solving algorithms in separate threads for simultaneous visualization.
 
 ## Result
-https://github.com/K3r7d/Maze_game/blob/main/Img/image.png
+!(https://github.com/K3r7d/Maze_game/blob/main/Img/image.png)
 
 
 ### Customization
